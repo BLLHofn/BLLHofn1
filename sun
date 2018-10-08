@@ -1,0 +1,19 @@
+package homework;
+public class DemoF {
+	public static void main(String[]args) {
+		/*Scanner a=new Scanner(System.in);
+		System.out.println("请输入一个数");
+		int N=a.nextInt();
+		int b =(int)Math.pow(10,N);
+        System.out.println(b);*/
+		int k=1;
+		for(int i=1;i<27;i++) {
+			char j=(char)(96+i);
+			System.out.print(j+"\t");
+			if(k%7==0) {
+				System.out.println();
+			}
+			k++;
+		}
+	}
+}
